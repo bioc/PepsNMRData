@@ -1,0 +1,13 @@
+.Ruserdata
+.Rproj.user
+^.*\.Rproj$
+.Rhistory
+.RData
+*~
+*.swp
+sshkey.pub
+sshkey
+.Rproj
+.DS_Store
+PEPSNMR-proj.Rproj
+

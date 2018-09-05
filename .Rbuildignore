@@ -1,0 +1,24 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+
+
+sshkey.pub
+sshkey
+
+.travis.yml
+
+.DS_Store
+^README\.Rmd$
+
+grep -r search * .*
+
+# RStudio files
+.Rproj.user/
+
+# History files
+.Rhistory
+.Rapp.history
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
