@@ -4,8 +4,7 @@ Title: Datasets for the PepsNMR package
 Version: 1.0
 Author: Manon Martin
 Maintainer: Manon Martin <manon.martin@uclouvain.be>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: This package contains the datasets used in the PepsNMR package
 License:  GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true
