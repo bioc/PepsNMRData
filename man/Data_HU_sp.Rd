@@ -31,6 +31,11 @@ For more details on this database, use \code{help(FidData_HU)}.}
 
 }
 
+\references{
+  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of metabonomics data in 1H NMR spectroscopy}
+  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique et sciences actuarielles, Université catholique de Louvain, Belgium).
+}
+
 \examples{
 
 plot(Re(Data_HU_sp$FidData_HU_0[1,]), type="l")

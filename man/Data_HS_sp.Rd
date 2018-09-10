@@ -28,6 +28,11 @@ For more details on this database, use \code{help(FidData_HS)}.}
 \source{Data provided by Dr. Pascal de Tullio and coworkers of the Pharmaceutical Chemistry Laboratory in the Pharmacy Department of the University of Liege (ULg), Belgium.
 }
 
+\references{
+  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of metabonomics data in 1H NMR spectroscopy}
+  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique et sciences actuarielles, Université catholique de Louvain, Belgium).
+}
+
 \examples{
 
 plot(Re(Data_HS_sp$FidData_HS_0[1,]), type="l")

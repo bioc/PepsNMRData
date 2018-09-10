@@ -25,6 +25,11 @@
 \seealso{
 See also \code{\link{FidData_HU}} for the FIDs and \code{\link{Group_HU}} for the class membership of FID samples.}
 
+\references{
+  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of metabonomics data in 1H NMR spectroscopy}
+  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique et sciences actuarielles, Université catholique de Louvain, Belgium).
+}
+
 \examples{
 data(FidInfo_HU)
 }

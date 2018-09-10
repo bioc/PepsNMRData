@@ -14,9 +14,13 @@
 See also \code{\link{FidInfo_HU}} for acquisition parameters and \code{\link{Group_HU}} for the class of FID samples.
 }
 
+\references{
+  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of metabonomics data in 1H NMR spectroscopy}
+  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique et sciences actuarielles, Université catholique de Louvain, Belgium).
+}
 
 \examples{
 data(FidData_HU)
-plot(Re(FidData_HU[1,]), type = "l") 
+plot(Re(FidData_HU[1,]), type = "l")
 }
 \keyword{datasets}

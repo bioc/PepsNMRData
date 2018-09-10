@@ -3,7 +3,7 @@
 \docType{data}
 \title{Spectra for the Human Serum database after the advised preprocessing workflow.
 }
-\description{Matrix containing the Human Serum spectra after the full pre-treatment process and with the default parameters. At this stage the spectra are fully pre-processed. 
+\description{Matrix containing the Human Serum spectra after the full pre-treatment process. At this stage the spectra are fully pre-processed.
 For more details on this database, see \code{help(FidData_HS)}.
 }
 \usage{data("FinalSpectra_HS")}
@@ -18,9 +18,14 @@ For more details on this database, see \code{help(FidData_HS)}.
 See also \code{\link{FidData_HS}} for the raw FIDs and \code{\link{Group_HS}} for the samples class.
 }
 
+\references{
+  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of metabonomics data in 1H NMR spectroscopy}
+  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique et sciences actuarielles, Université catholique de Louvain, Belgium).
+}
+
 
 \examples{
 data(FinalSpectra_HS)
-plot(Re(FinalSpectra_HS[1,]), type="l") 
+plot(Re(FinalSpectra_HS[1,]), type="l")
 }
 \keyword{datasets}

@@ -15,8 +15,13 @@ The experimental design is as follow: serum was collected from 4 blood donors (t
 See also \code{\link{FidInfo_HS}} for acquisition parameters and \code{\link{Group_HS}} for the class of FID samples.
 }
 
+\references{
+  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of metabonomics data in 1H NMR spectroscopy}
+  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique et sciences actuarielles, Université catholique de Louvain, Belgium).
+}
+
 \examples{
 data(FidData_HS)
-plot(Re(FidData_HS[1,]), type = "l") 
+plot(Re(FidData_HS[1,]), type = "l")
 }
 \keyword{datasets}
