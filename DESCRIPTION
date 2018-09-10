@@ -2,10 +2,13 @@ Package: PepsNMRData
 Type: Package
 Title: Datasets for the PepsNMR package
 Version: 1.0
-Author: Manon Martin
-Maintainer: Manon Martin <manon.martin@uclouvain.be>
-Description: This package contains the datasets used in the PepsNMR package
+Authors@R: c(person("Manon", "Martin", role = c("aut","cre"),email = "manon.martin@uclouvain.be"),
+	  person("Bernadette", "Govaerts", role = c("aut","ths"), email = "bernadette.govaerts@uclouvain.be"),
+	  	person("Pascal", "de Tullio", role = c("dtc")))
+Contact: Manon Martin <manon.martin@uclouvain.be>, Bernadette Govaerts <bernadette.govaerts@uclouvain.be> or Benoît Legat <benoit.legat@gmail.com> 
+Description: This package contains all the datasets used in the PepsNMR package.
 License:  GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.4.0)
+Note: This package contains the 2 datasets used as examples for the PepsNMR package
