@@ -29,7 +29,7 @@ The (partially) pre-processed metabolomic 1H NMR datasets are in the form of \co
 \tabular{ll}{
 Package: \tab PepsNMRData\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
+Version: \tab 0.99.0\cr
 License: \tab GPLv2\cr
 }
 
