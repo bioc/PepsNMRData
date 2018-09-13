@@ -23,6 +23,7 @@ The (partially) pre-processed metabolomic 1H NMR datasets are in the form of \co
   \item{\code{\link{FinalSpectra_HU}}}{Matrix containing the Human Urine spectra after the full pre-treatment process.}
   \item{\code{\link{Group_HS}}}{Provides the group (1|2|3|4) to which belongs each signal/spectrum of the Human Serum database.}
   \item{\code{\link{Group_HU}}}{Provides the group (1/2/3) to which belongs each signal/spectrum of the Human Urine database.}
+  \item{\code{\link{RawFidData_HS}}}{Raw Bruker files for the Human Serum dataset.}
 }
 }
 \details{
