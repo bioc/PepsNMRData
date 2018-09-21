@@ -8,7 +8,8 @@
   A matrix with 24 observations and 10 variables:
     \describe{
    \item{TD}{Time domain size}
-   \item{BYTORDA}{Determine the endiness of stored data. If 0 -> Little Endian; if 1 -> Big Endian}
+   \item{BYTORDA}{Determine the endiness of stored data. If 0 -> Little Endian;
+   if 1 -> Big Endian}
    \item{DIGMOD}{Digitization mode}
    \item{DECIM}{Decimation rate of digital filter}
    \item{DSPFVS}{DSP firmware version}
@@ -19,15 +20,20 @@
    \item{DT}{Dwell time in microseconds}
    }
 }
-\source{Data provided by Dr. Pascal de Tullio and coworkers of the Pharmaceutical Chemistry Laboratory in the Pharmacy Department of the University of Liege (ULg), Belgium.
+\source{Data provided by Dr. Pascal de Tullio and coworkers of the
+Pharmaceutical Chemistry Laboratory in the Pharmacy Department of the
+University of Liege (ULg), Belgium.
 }
 
 \seealso{
-See also \code{\link{FidData_HU}} for the FIDs and \code{\link{Group_HU}} for the class membership of FID samples.}
+See also \code{\link{FidData_HU}} for the FIDs and \code{\link{Group_HU}}
+for the class membership of FID samples.}
 
 \references{
-  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of metabonomics data in 1H NMR spectroscopy}
-  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique et sciences actuarielles, Université catholique de Louvain, Belgium).
+  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of
+  metabonomics data in 1H NMR spectroscopy}
+  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique
+  et sciences actuarielles, Université catholique de Louvain, Belgium).
 }
 
 \examples{

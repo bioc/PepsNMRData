@@ -2,11 +2,12 @@
 \alias{Data_HS_sp}
 \docType{data}
 \title{FIDs and spectra from the Human Serum database.}
-\description{4 first FIDs and spectra of the Human Serum database after each preprocessing step.
+\description{4 first FIDs and spectra of the Human Serum database after
+each preprocessing step.
 For more details on this database, use \code{help(FidData_HS)}.}
 \usage{data("Data_HS_sp")}
 \format{
-  A list with 14 objects that are complex matrices. 4 observations/object:
+A list with 14 objects that are complex matrices. 4 observations/object:
   \describe{
     \item{\code{FidData_HS_0}}{Raw FIDs.}
     \item{\code{FidData_HS_1}}{FIDs after first order phase correction.}
@@ -25,12 +26,16 @@ For more details on this database, use \code{help(FidData_HS)}.}
   }
 }
 
-\source{Data provided by Dr. Pascal de Tullio and coworkers of the Pharmaceutical Chemistry Laboratory in the Pharmacy Department of the University of Liege (ULg), Belgium.
+\source{Data provided by Dr. Pascal de Tullio and coworkers of the Pharmaceutical
+Chemistry Laboratory in the Pharmacy Department of the University of
+Liege (ULg), Belgium.
 }
 
 \references{
-  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of metabonomics data in 1H NMR spectroscopy}
-  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique et sciences actuarielles, Université catholique de Louvain, Belgium).
+  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of
+  metabonomics data in 1H NMR spectroscopy}
+  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique
+  et sciences actuarielles, Université catholique de Louvain, Belgium).
 }
 
 \examples{

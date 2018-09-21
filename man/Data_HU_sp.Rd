@@ -2,7 +2,8 @@
 \alias{Data_HU_sp}
 \docType{data}
 \title{FIDs and spectra from the Human Urine database.}
-\description{4 first FIDs and spectra of the Human Urine database after each preprocessing step.
+\description{4 first FIDs and spectra of the Human Urine database after
+each preprocessing step.
 For more details on this database, use \code{help(FidData_HU)}.}
 \usage{data("Data_HU_sp")}
 \format{
@@ -27,13 +28,17 @@ For more details on this database, use \code{help(FidData_HU)}.}
   }
 }
 
-\source{Data provided by Dr. Pascal de Tullio and coworkers of the Pharmaceutical Chemistry Laboratory in the Pharmacy Department of the University of Liege (ULg), Belgium.
+\source{Data provided by Dr. Pascal de Tullio and coworkers of the
+Pharmaceutical Chemistry Laboratory in the Pharmacy Department of the
+University of Liege (ULg), Belgium.
 
 }
 
 \references{
-  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of metabonomics data in 1H NMR spectroscopy}
-  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique et sciences actuarielles, Université catholique de Louvain, Belgium).
+  Rousseau, R. (2011). \emph{Statistical contribution to the analysis of
+  metabonomics data in 1H NMR spectroscopy}
+  (Doctoral dissertation, PhD thesis. Institut de statistique, biostatistique
+  et sciences actuarielles, Université catholique de Louvain, Belgium).
 }
 
 \examples{
