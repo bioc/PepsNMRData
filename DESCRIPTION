@@ -11,7 +11,7 @@ Description: This package contains all the datasets used in the PepsNMR package.
 License:  GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.4.0)
+Depends: R (>= 3.5)
 BugReports: https://github.com/ManonMartin/PepsNMRData/issues
 biocViews: ExperimentData, OrganismData, Homo_sapiens_Data (72)
  Mus_musculus_Data 
