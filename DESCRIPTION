@@ -1,7 +1,7 @@
 Package: PepsNMRData
 Type: Package
 Title: Datasets for the PepsNMR package
-Version: 1.15.0
+Version: 1.16.0
 Suggests: knitr, markdown, rmarkdown, BiocStyle
 Authors@R: c(person("Manon", "Martin", role = c("aut","cre"),email = "manon.martin@uclouvain.be"),
 	  person("Bernadette", "Govaerts", role = c("aut","ths"), email = "bernadette.govaerts@uclouvain.be"),
